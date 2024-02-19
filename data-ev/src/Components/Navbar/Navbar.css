@@ -1,0 +1,27 @@
+.logo{
+    width: 30%;
+}
+.main-nav-con{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: transparent;
+}
+.navbar{
+  --bs-navbar-nav-link-padding-x:1.5rem;
+}
+
+.letstalk-btn{
+  color: white;
+  background-color: transparent;
+  border-style: none;
+  height:30px;
+  width:90px;
+  border-radius: 15px;
+}
+.letstalk-btn:hover{
+  background-color: aqua;
+
+}
+
+
