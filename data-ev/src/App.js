@@ -13,13 +13,10 @@ function App() {
       <Navbar/>
       </Headroom>
       <Topbar/>
-<<<<<<< HEAD
-      <Slides/>
+     <Slides/>
       <Cards/>
       <Transistions/>
-=======
-      
->>>>>>> ee50f899e31d0c6cd69f58dcb7308966a4ebba77
+
     </div>
   );
 }
