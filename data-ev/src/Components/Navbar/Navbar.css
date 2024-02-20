@@ -1,14 +1,14 @@
 .logo {
   width: 25%;
 }
-<<<<<<< HEAD
+
 .main-nav-con {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
   background-color:slateblue;
 
-=======
+
 .main-nav-con{
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@
 }
 .navbar{
   --bs-navbar-nav-link-padding-x:1.5rem;
->>>>>>> ee50f899e31d0c6cd69f58dcb7308966a4ebba77
+
 }
 
 .Nav_main{
@@ -39,11 +39,11 @@
   border-radius: 15px;
   border: white thin;
 }
-<<<<<<< HEAD
+
 .letstalk-btn:hover {
   background-color: rgb(209, 15, 177);
-=======
+  
 .letstalk-btn:hover{
   background-color: aqua;
->>>>>>> ee50f899e31d0c6cd69f58dcb7308966a4ebba77
+
 }
