@@ -1,19 +1,12 @@
-<<<<<<< HEAD
 import React from "react";
 import "./Slides.css";
-import bgimageforhome from "../../Assets/images/bgimageforhome.png"
-=======
-import React from 'react'
-import "./Slides.css";
 
->>>>>>> ee50f899e31d0c6cd69f58dcb7308966a4ebba77
 const Slides = () => {
   return (
     <div>
       <section>
         <div className="container">
           <div className="row">
-<<<<<<< HEAD
             <div className="col-12 col-lg-6">
               <div className="premier-text">
                 <span>PREMIER</span>
@@ -26,7 +19,7 @@ const Slides = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-lg-6 ">
+            <div className="col-12 col-lg-6">
               <div className="images-main1">
                 <div className="aws-main">
                   <span>
@@ -94,24 +87,3 @@ const Slides = () => {
 };
 
 export default Slides;
-=======
-            <div className="col-12 col-lg-5">
-              <div>
-                <span>PREMIER</span>
-                <span>TECHNOLOGY</span>
-                <span>COLLABRATIONS</span>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-      </section>
-      
-    </div>
-  )
-}
-
-export default Slides
->>>>>>> ee50f899e31d0c6cd69f58dcb7308966a4ebba77
