@@ -1,0 +1,26 @@
+.trans-main{
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.container-tran{
+    background-color: chartreuse;
+}
+.trans-header{
+    font-family: Poppins, Regular;
+    font-size: 40px;
+    font-weight: bold;
+    color: solid black;
+}
+.trans-images{
+    display: flex;
+    justify-content: space-between;
+}
+.trans-1{
+    width: 20%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:transparent;
+    border:thin rgb(236, 236, 236);
+}

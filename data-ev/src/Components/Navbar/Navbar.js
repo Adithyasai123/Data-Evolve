@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light Nav_main  ">
-        <div className="container container-fluid main-nav-con">
+        <div className="container main-nav-con">
           <img src={logo} alt="Logo" className="logo" />
 
           <button
@@ -34,7 +34,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  style={{ color: "white", cursor: "pointer" }}
+                  style={{ color: "black", cursor: "pointer" }}
                 >
                   What we Do
                 </a>
@@ -43,7 +43,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  style={{ color: "white", cursor: "pointer" }}
+                  style={{ color: "black", cursor: "pointer" }}
                 >
                   Who we are
                 </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  style={{ color: "white", cursor: "pointer" }}
+                  style={{ color: "black", cursor: "pointer" }}
                 >
                   Partners
                 </a>
@@ -61,7 +61,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  style={{ color: "white", cursor: "pointer" }}
+                  style={{ color: "black", cursor: "pointer" }}
                 >
                   Insights
                 </a>
@@ -70,7 +70,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  style={{ color: "white", cursor: "pointer" }}
+                  style={{ color: "black", cursor: "pointer" }}
                 >
                   <button className="letstalk-btn">Lets Talk</button>
                 </a>
