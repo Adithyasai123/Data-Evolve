@@ -7,14 +7,13 @@
   justify-content: space-between;
   overflow: hidden;
   background-color:slateblue;
-}
 
+}
 .main-nav-con{
     display: flex;
     justify-content: space-between;
     overflow: hidden;
-    /* background-color: transparent; */
-    background-color:chartreuse;
+    background-color:rgb(144, 96, 221);
 }
 .navbar{
   --bs-navbar-nav-link-padding-x:1.5rem;
@@ -40,9 +39,7 @@
   border: white thin;
 }
 
-.letstalk-btn:hover {
-  background-color: rgb(209, 15, 177);
-  
+
 .letstalk-btn:hover{
   background-color: aqua;
 
