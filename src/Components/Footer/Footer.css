@@ -1,0 +1,112 @@
+.footer-container {
+  background-color: #e8e6e6;
+}
+.footer-top {
+  margin-bottom: 60px;
+}
+
+.details-main {
+  border-right: solid rgb(218, 216, 216);
+  margin-bottom: 50px;
+}
+
+.address-main {
+  border-right: solid rgb(218, 216, 216);
+  margin-bottom: 50px;
+}
+.about-main {
+  border-right: solid rgb(218, 216, 216);
+  margin-bottom: 50px;
+}
+
+.footer-header {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.button-main {
+  margin-left: 55px;
+}
+.connect-button {
+  height: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+}
+
+.connect-button:hover {
+  background-color: aqua;
+  color: white;
+}
+
+.location-img {
+  width: 78%;
+}
+.email-img {
+  width: 40%;
+}
+.phone-img {
+  width: 30%;
+}
+
+.about-header {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.logo-main {
+  border-top: solid rgb(218, 216, 216);
+}
+.footer-logo {
+  position: relative;
+  width: 80%;
+  margin-top: 20px;
+}
+.footer-logo:hover {
+  cursor: pointer;
+}
+
+.copy-main {
+  border-top: solid rgb(218, 216, 216);
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.logos-main {
+  border-top: solid rgb(218, 216, 216);
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.facebook-logo {
+  padding-right: 10px;
+}
+.facebook-logo:hover {
+  cursor: pointer;
+}
+.LinkedIN-logo:hover {
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .logo-main {
+    border-top: none;
+    width:30%;
+  }  
+}
+
+@media only screen and (max-width: 767px) {
+  .copy-main{
+    border-top: none;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .logos-main {
+    border-top: none;
+    display: flex;
+  justify-content: center;
+  
+  }
+}

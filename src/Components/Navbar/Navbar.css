@@ -1,0 +1,47 @@
+.logo {
+  width: 25%;
+}
+.navbar-toggler{
+  border: none;
+  border-radius: 15px;
+  background-color: transparent;
+}
+ 
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: rgb(0, 0, 0) var(--bs-navbar-toggler-focus-width);
+}
+
+.main-nav-con {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color:transparent;
+
+}
+.Nav_main.scrolled {
+  background-color: rgb(160, 155, 155) !important;  
+}
+.Nav_main{
+  background-color: transparent !important;
+}
+
+.navbar {
+  --bs-navbar-nav-link-padding-x: 1.5rem;
+  font-family: Poppins, Regular;
+}
+
+.letstalk-btn {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-style: none;
+  height: 40px;
+  width: 90px;
+  border-radius: 15px;
+  margin-Left:8px
+}
+.letstalk-btn:hover {
+  background-color: rgb(18, 180, 255);
+  color: white;
+}

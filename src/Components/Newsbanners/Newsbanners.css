@@ -1,0 +1,34 @@
+.peek-header{
+    font-weight: 950 !important;
+    letter-spacing: 1px;
+    font-size: 36px;
+    margin-top: 1.8rem;
+    padding: 0 10px;
+    font-family: Open Sans,sans-serif;
+}
+
+.peek-para{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(153, 151, 148);
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: Open Sans,sans-serif;
+}
+
+
+.elevate-header{
+    font-weight: 950;
+    padding: 0px 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.image_4{
+    width: 80%;
+     
+}
+.image_5{
+    width: 80%;
+}
+ 

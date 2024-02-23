@@ -1,0 +1,29 @@
+.container-anime {
+  padding-top: 2.5rem;
+  overflow: hidden;
+  background-image: url("../../Assets/images/bgimageforhome.png");
+}
+
+.main-header {
+  font-weight: 950 !important;
+  letter-spacing: 1px;
+  font-size: 40px;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.side-headers {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.cloud-para {
+    margin-top: 1.2rem;
+    margin-bottom: 80px;
+    color: rgb(153, 151, 148);
+    font-size: 18px;
+    font-family: Open Sans,sans-serif;
+     padding-left: 20px;
+     width: 80%;
+}
