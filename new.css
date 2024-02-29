@@ -1,0 +1,315 @@
+.header {
+  text-align: left;
+  font: normal normal bold 25px/30px Roboto Slab;
+  letter-spacing: 0.7px;
+  color: #506eb9;
+  margin-bottom: 30px;
+}
+
+.first-box {
+  background-color: #D2EAFF;
+  font-family: Poppins, Regular;
+  font-size: 12px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.second-box {
+  background-color: #D2EAFF;
+  font-family: Poppins, Regular;
+  font-size: 12px;
+  padding-top: 10px;
+}
+.first-text {
+  margin-bottom: 20px;
+   
+}
+.upload-button {
+  color: #2c4096;
+  width: 20%;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  border: 0.5px solid #707070;
+  font: normal normal 600 11px/17px Poppins;
+}
+
+.upload-box {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px dashed #707070;
+  opacity: 0.8;
+  margin-top: 15px;
+  width: 70%;
+  height: 210px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.drag-text {
+  display: flex;
+  justify-content: center;
+  font-family: Poppins, Regular;
+}
+
+.upload_icon {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.browse-button {
+  background: #f7f8ff 0% 0% no-repeat padding-box;
+  border: 0.5px solid #707070;
+  border-radius: 20px;
+  opacity: 1;
+  color: #2c4096;
+  width: 28%;
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font: normal normal bold 11px/17px Poppins;
+  border-radius: 20px;
+  
+}
+.browse-button:hover{
+  cursor: pointer;
+}
+
+
+.pdf-box{
+  border-top: 1px dashed #707070;
+  opacity: 0.49;
+  margin-top: 20px;
+   
+}
+.pdf-section{
+  margin-left: 15px;
+  display: flex;
+   
+
+}
+
+.remove-section{
+  display: flex;
+  justify-content: end;
+  
+}
+
+.remove-button{
+  background-color: transparent;
+  border: none;
+  border-radius: 40%;
+}
+/* .remove-button:hover{
+  background-color: rgb(255, 0, 0);
+} */
+
+
+
+
+.toogle-close-section{
+  display: flex;
+  justify-content: end;
+ 
+}
+ .toogle-close-button{
+  background-color: transparent;
+  border: none;
+  border-radius: 40%;
+  display: flex;
+  position: relative;
+  
+}    
+
+.bottom-button{
+  display: flex;
+  justify-content: end;
+  position: relative;
+  right: 100px;
+  top:30px;
+   
+}
+/* background-color: #F8D874;
+border-radius: 20px;
+border: none;
+width: 12%;
+font-family: Open Sans;
+font-weight: bold;
+color: #2B3F89;
+padding: 13px;
+font-size: 18px; */
+
+
+.save-next-button{
+  background-color: #F8D874;
+  border-radius: 20px;
+  border: none;
+  width: 25%;
+  padding: 13px;
+  font-family: Open Sans;
+  font-weight: bold;
+  color: #2B3F89;
+  position: relative;
+  right: 50px;
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 831px) {
+ 
+  .upload-button {
+    color: #2c4096;
+    width: 25%;
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+    border: 0.5px solid #707070;
+    font: normal normal 600 11px/17px Poppins;
+  }
+  .browse-button {
+    background: #f7f8ff 0% 0% no-repeat padding-box;
+    border: 0.5px solid #707070;
+    border-radius: 20px;
+    opacity: 1;
+    color: #2c4096;
+    width: 35%;
+    padding-left: 12px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font: normal normal bold 11px/17px Poppins;
+    border-radius: 20px;
+    
+  }
+    
+  }
+
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+ 
+    .upload-button {
+      color: #2c4096;
+      width: 20%;
+      padding: 5px;
+      background-color: white;
+      border-radius: 20px;
+      border: 0.5px solid #707070;
+      font: normal normal 600 11px/17px Poppins;
+    }
+    .browse-button {
+      background: #f7f8ff 0% 0% no-repeat padding-box;
+      border: 0.5px solid #707070;
+      border-radius: 20px;
+      opacity: 1;
+      color: #2c4096;
+      width: 25%;
+      padding-left: 12px;
+      padding-right: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font: normal normal bold 11px/17px Poppins;
+      border-radius: 20px;
+      
+    }
+    .save-next-button{
+      background-color: #F8D874;
+      border-radius: 20px;
+      border: none;
+      width: 50%;
+      padding: 13px;
+      font-family: Open Sans;
+      font-weight: bold;
+      color: #2B3F89;
+      position: relative;
+      right: 0px;
+    
+    }
+      
+    }
+
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+ 
+      .upload-button {
+        color: #2c4096;
+        width: 20%;
+        padding: 5px;
+        background-color: white;
+        border-radius: 20px;
+        border: 0.5px solid #707070;
+        font: normal normal 600 11px/17px Poppins;
+      }
+      .browse-button {
+        background: #f7f8ff 0% 0% no-repeat padding-box;
+        border: 0.5px solid #707070;
+        border-radius: 20px;
+        opacity: 1;
+        color: #2c4096;
+        width: 28%;
+        padding-left: 12px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font: normal normal bold 11px/17px Poppins;
+        border-radius: 20px;
+        
+      }
+      .save-next-button{
+        background-color: #F8D874;
+        border-radius: 20px;
+        border: none;
+        width: 50%;
+        padding: 13px;
+        font-family: Open Sans;
+        font-weight: bold;
+        color: #2B3F89;
+        position: relative;
+        right: 0px;
+      
+      }
+        
+      }
+
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+ 
+        .upload-button {
+          color: #2c4096;
+          width: 24%;
+          padding: 5px;
+          background-color: white;
+          border-radius: 20px;
+          border: 0.5px solid #707070;
+          font: normal normal 600 11px/17px Poppins;
+        }
+        .browse-button {
+          background: #f7f8ff 0% 0% no-repeat padding-box;
+          border: 0.5px solid #707070;
+          border-radius: 20px;
+          opacity: 1;
+          color: #2c4096;
+          width: 33%;
+          padding-left: 12px;
+          padding-right: 15px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          font: normal normal bold 11px/17px Poppins;
+          border-radius: 20px;
+          
+        }
+        .save-next-button{
+          background-color: #F8D874;
+          border-radius: 20px;
+          border: none;
+          width: 50%;
+          padding: 13px;
+          font-family: Open Sans;
+          font-weight: bold;
+          color: #2B3F89;
+          position: relative;
+          right: 0px;
+        
+        }
+          
+        }
